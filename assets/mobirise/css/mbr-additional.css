@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i);
-
-
-
+/*@import url(https://fonts.googleapis.com/css?family=Richardson Brand Accelerator:300,300i,400,400i,500,500i,700,700i,900,900i);*/
+﻿/* @font-face kit by Fonts2u (https://fonts2u.com) */ 
+@font-face {font-family:"Richardson Brand Accelerator";src:url("../fonts/Richardson_Brand_Accelerator.eot?") format("eot"), url("../fonts/Richardson_Brand_Accelerator.woff") format("woff"), url("../fonts/Richardson_Brand_Accelerator.ttf") format("truetype"), url("../fonts/Richardson_Brand_Accelerator.svg#RichardsonBrandAccelerator") format("svg");font-weight:normal;font-style:normal;}
 
 
 body {
@@ -148,8 +148,8 @@ body {
 }
 .btn-primary,
 .btn-primary:active {
-  background-color: #ff3366 !important;
-  border-color: #ff3366 !important;
+  background-color: #e63425 !important;
+  border-color: #e63425!important;
   color: #ffffff !important;
 }
 .btn-primary:hover,
@@ -1548,8 +1548,7 @@ body {
 }
 .cid-rjiQdbgJvQ {
   padding-top: 45px;
-  padding-bottom: 0px;
-  background-image: url("../../../assets/images/bg-pronas.png");
+  padding-bottom: 0px;  
 }
 .cid-rjiQdbgJvQ h2 {
   text-align: left;
@@ -1836,16 +1835,15 @@ body {
 .cid-rgkjybBWBf {
   padding-top: 30px;
   padding-bottom: 15px;
-  background-color: #efefef;
+  background-color: #141611;
 }
 .cid-rgkjybBWBf H2 {
-  color: #e73212;
-  text-align: left;
+	color: #EB4A10;
 }
 .cid-rhi7sC76va {
   padding-top: 30px;
   padding-bottom: 30px;
-  background-image: url("../../../assets/images/img-20190110.jpg");
+  background-image: url("../../../assets/images/bg-abonent2.png");
 }
 .cid-rhi7sC76va .list-group-item {
   padding: .75rem 3.25rem;
@@ -1881,16 +1879,20 @@ body {
   padding-right: 1rem;
 }
 .cid-rhi7sC76va .plan-header,
-.cid-rhi7sC76va .plan-body {
-  background-color: #fff;
+.cid-rhi7sC76va .plan-body { 
+	background-image: url("../../../assets/images/discont_card_RB_ukr_print_1_01-01.jpg");
+	/*background-color: black;*/
+	 background-position: top; /* Положение фона */
+    background-repeat: no-repeat;
 }
 .cid-rhi7sC76va .price-figure {
   font-weight: 700;
-  color: #232323;
+  color: whitesmoke;
 }
 .cid-rhi7sC76va .price-value {
   font-weight: 700;
   vertical-align: top;
+	color: #e73212;
 }
 @media (max-width: 550px) {
   .cid-rhi7sC76va .price-figure {
@@ -1898,7 +1900,7 @@ body {
   }
 }
 .cid-rhi7sC76va .plan-title {
-  color: #232323;
+  color: white;
 }
 .cid-rhi7sC76va .plan-title B {
   color: #e73212;
@@ -3064,7 +3066,8 @@ body {
 }
 .cid-rgmOpPUsfe {
   padding-top: 90px;
-  padding-bottom: 0px;
+  padding-bottom: 30px;
+  background-image: url("../../../assets/images/bg-forma4-1276x698.jpg");
 }
 .cid-rgmOpPUsfe .title {
   margin-bottom: 2rem;
@@ -3089,10 +3092,10 @@ body {
   text-align: center;
 }
 .cid-rgmOpPUsfe H2 {
-  color: #f7ed4a;
+  color: #efefef;
 }
 .cid-rgmOpPUsfe LABEL {
-  color: #f9f295;
+  color: #efefef;
 }
 .cid-rgqju4GTtJ {
   padding-top: 0px;
@@ -3577,6 +3580,7 @@ body {
 .cid-rgszeVoeuL {
   padding-top: 120px;
   padding-bottom: 60px;
+      background-image: url("../../../assets/images/bg-forma4-1276x698.jpg");
 }
 .cid-rgszeVoeuL .title {
   margin-bottom: 2rem;
@@ -5339,7 +5343,8 @@ body {
   }
 }
 .cid-rjrsOR3oea {
-  background-image: url("../../../assets/images/karta-contact-1786x714.jpg");
+  /*background-image: url("../../../assets/images/karta-contact-1786x714.jpg");*/
+    background-color: beige;
 }
 .cid-rjrtFugCsM {
   padding-top: 60px;
@@ -6174,7 +6179,8 @@ body {
   opacity: 0;
 }
 .cid-rjsq94Cm4q .popup-btn:hover .mbr-overlay {
-  opacity: .5;
+  opacity: 1
+      ;
 }
 .cid-rjsq94Cm4q .popup-btn:hover .mbr-section-btn {
   opacity: 1;
@@ -6533,7 +6539,7 @@ body {
   background: #ffffff;
   transition: none;
   min-height: 77px;
-  padding: .5rem 0;
+  padding: 0.5rem;
 }
 .cid-rggo3LavFH .navbar-dropdown.bg-color.transparent.opened {
   background: #ffffff;
@@ -6575,7 +6581,7 @@ body {
 }
 .cid-rggo3LavFH .menu-logo .navbar-brand {
   display: flex;
-  margin-left: 5rem;
+  margin-left: 1rem;
   padding: 0;
   transition: padding .2s;
   min-height: 3.8rem;
@@ -6587,8 +6593,8 @@ body {
   -webkit-align-items: center;
   align-items: center;
   word-break: break-word;
-  min-width: 7rem;
-  margin: .3rem 0;
+  min-width: 5rem;
+  margin: 0.3rem ;
 }
 .cid-rggo3LavFH .menu-logo .navbar-brand .navbar-caption-wrap .navbar-caption {
   line-height: 1.2rem !important;
@@ -6610,7 +6616,7 @@ body {
 .cid-rggo3LavFH .navbar-toggleable-sm .navbar-collapse {
   justify-content: flex-end;
   -webkit-justify-content: flex-end;
-  padding-right: 5rem;
+  padding-right: 1rem;
   width: auto;
 }
 .cid-rggo3LavFH .navbar-toggleable-sm .navbar-collapse .navbar-nav {
@@ -6929,7 +6935,8 @@ body {
 .cid-rjDRLAdiNp {
   padding-top: 15px;
   padding-bottom: 60px;
-  background-color: #ffffff;
+ /* background-color: #ffffff;*/
+    background-image: url(../../../assets/images/bg-nasha-komanda.jpg);
 }
 .cid-rjDRLAdiNp .mbr-section-subtitle {
   color: #767676;
@@ -7095,4 +7102,58 @@ body {
 }
 .cid-rjDTt3KyA5 .copyright > p {
   text-align: right;
+}
+
+.price-term
+{
+color: orangered;
+}
+
+ article li {
+list-style-type: none; /* Скрываем маркеры, отображаемые по умолчанию */
+}
+article li:before {
+font-family: 'Montserrat', sans-serif;
+font-weight: 600;
+color: #d7002e; /* Цвет маркера */
+content: "•"; /* Маркер */
+padding-right: 7px; /* Отступ от маркера до текста */
+}
+.cid-rkoLfs354G {
+  padding-top: 135px;
+  padding-bottom: 105px;
+    background-image: url("../../../assets/images/bg-rozklad-1307x871.jpg");}
+.cid-rlwpTxZXMu .google-map {
+  height: 25rem;
+  position: relative;
+}
+.cid-rlwpTxZXMu .google-map iframe {
+  height: 100%;
+  width: 100%;
+}
+.cid-rlwpTxZXMu .google-map [data-state-details] {
+  color: #6b6763;
+  font-family: Montserrat;
+  height: 1.5em;
+  margin-top: -0.75em;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+}
+.cid-rlwpTxZXMu .google-map[data-state] {
+  background: #e9e5dc;
+}
+.cid-rlwpTxZXMu .google-map[data-state="loading"] [data-state-details] {
+  display: none;
+}
+.navbar-fixed-top1{
+position: fixed;
+	top: 30px;
+}
+.navbar-fixed-top2{
+position: fixed;
+	top: 150px;
 }
